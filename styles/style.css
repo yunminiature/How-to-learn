@@ -152,6 +152,7 @@
 }
 
 .table__heading{
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -164,10 +165,80 @@
   font-weight: 400;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
+/* FEYNMAN */
+
+.feynman{
+  position: relative;
+  margin-top: 100px;
+  min-height: 780px;
+  background: url("../images/feynman.png") left bottom no-repeat;
+  background-size: 867px 637px;
+}
+
+.feynman__title{
+  width: 648px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+}
+
+.feynman__subtitle{
+  margin: 70px auto 0;
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.feynman__link{
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+/* KAUFMAN */
+
+.kaufman{
+  position: relative;
+  overflow: hidden;
+  padding: 90px 0;
+  background-color: #1f1f1f;
+}
+
+.section-title_theme_dark{
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+
+.section-subtitle_theme_dark{
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+
+.table_theme_dark{
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+
+.table__sell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.kaufman__triangle{
+  position: absolute;
+  top: 0;
+  right: -210px;
 }
