@@ -6,4 +6,6 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   text-align: center;
+  column-gap: 100px;
+  row-gap: 60px;
 }
